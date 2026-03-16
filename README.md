@@ -21,22 +21,54 @@ My work focuses on applying economic modeling, statistical analysis, and data an
 ## Professional Experience
 
 ### Ministry of Economy of El Salvador  
-Economic Intelligence and Policy Analyst
+**Economic Intelligence and Policy Analyst**
 
-### Trade Policy and Market Access Negotiator
-Represented El Salvador in international trade negotiations including the Partial Scope Agreement with Belize.
+Conduct macroeconomic analysis and policy evaluation to support strategic economic decision-making.  
+Key areas of work include:
 
-### Banking and Financial Sector Experience
-Experience in financial risk analysis, country risk evaluation and macro-financial monitoring.
+- Monitoring macroeconomic indicators such as GDP, inflation, employment, credit, and investment.
+- Evaluating the impact of economic policies using data analysis and cost-benefit methodologies.
+- Identifying economic risks and opportunities through macro-financial analysis.
+- Producing technical reports and strategic policy recommendations for high-level decision makers.
+
+---
+
+### Trade Policy and International Negotiations
+
+Former **Market Access and Trade Policy Negotiator**, representing El Salvador in international trade negotiations.
+
+Key contributions include:
+
+- Participation in bilateral negotiations, including the **Partial Scope Agreement between El Salvador and Belize**.
+- Analysis of trade flows, competitiveness, and market access opportunities.
+- Evaluation of the economic impact of international trade agreements.
+- Development of economic indicators to support trade policy decision-making.
+
+---
+
+### Financial Sector Experience
+
+Experience in the banking sector focused on **financial risk analysis and macro-financial monitoring**.
+
+Main areas of work:
+
+- Credit risk and country risk evaluation.
+- Analysis of macroeconomic variables affecting financial markets.
+- Development of risk monitoring frameworks for financial portfolios.
+- Integration of economic, political, and financial indicators in risk assessments.
+
+---
 
 ### Academic Experience
-University lecturer in:
 
-- International Economics  
-- Economic Policy  
-- Economic Integration  
-- Environmental Economics  
+University lecturer in economics at several higher education institutions.
 
+Courses taught include:
+
+- International Economics
+- Economic Policy
+- Economic Integration
+- Environmental Economics
 ---
 
 ## Awards
