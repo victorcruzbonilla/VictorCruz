@@ -243,31 +243,43 @@ section h2 {
 
 /* EDUCATION */
 /* EDUCATION — degree block (Lic + MSc) */
-/* DEGREES — highlighted */
+/* DEGREES — badge style */
 .edu-degrees {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px;
+  display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px;
 }
 .edu-degree {
-  border: 1px solid var(--rule);
-  border-top: 3px solid var(--blue);
+  display: flex; align-items: center; gap: 20px;
   background: var(--surface);
-  padding: 24px 26px;
+  border: 1px solid var(--rule);
+  padding: 20px 24px;
+  transition: border-color 0.2s;
 }
+.edu-degree:hover { border-color: var(--blue); }
+.edu-degree-badge {
+  flex-shrink: 0;
+  background: var(--navy);
+  color: #fff;
+  width: 52px; height: 52px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 22px; font-weight: 400;
+}
+.edu-degree-body { flex: 1; }
 .edu-degree-type {
   font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--blue); margin-bottom: 10px; font-weight: 600;
+  color: var(--blue); margin-bottom: 4px; font-weight: 600;
 }
 .edu-degree-title {
-  font-family: var(--serif); font-size: 22px; color: var(--navy);
-  font-weight: 400; line-height: 1.2; margin-bottom: 14px;
+  font-family: var(--serif); font-size: 19px; color: var(--navy);
+  font-weight: 400; line-height: 1.2; margin-bottom: 4px;
 }
-.edu-degree-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.edu-degree-inst { font-size: 13px; font-weight: 600; color: var(--text-2); }
-.edu-degree-year {
-  font-size: 11px; color: var(--text-3); letter-spacing: 0.06em;
+.edu-degree-inst { font-size: 12.5px; color: var(--text-2); }
+.edu-degree-year-tag {
+  flex-shrink: 0;
+  font-size: 12px; font-weight: 600; color: var(--navy);
+  border: 1px solid var(--rule);
+  padding: 4px 12px;
+  letter-spacing: 0.04em;
 }
-/* separator between inst and year */
-.edu-degree-sep { color: var(--rule); font-size: 14px; }
 
 /* training grid */
 .edu-training-label {
@@ -277,7 +289,7 @@ section h2 {
 .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); }
 .edu-card {
   background: var(--surface); padding: 16px 20px;
-  display: flex; gap: 12px; align-items: flex-start; transition: background 0.15s;
+  display: flex; gap: 12px; align-items: flex-start; transition: background 0.2s;
 }
 .edu-card:hover { background: #F4F7FA; }
 .edu-initial {
