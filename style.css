@@ -1,88 +1,50 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
-  background: #f8f9fb;
-  color: #1e2a38;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* NAVBAR */
+body {
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px;
   background: white;
-  border-bottom: 1px solid #eee;
 }
 
 .nav-links a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #2c3e50;
+  margin-left: 15px;
 }
 
-/* HERO */
 .hero {
-  padding: 60px 40px;
+  padding: 60px;
+  background: #eef3f8;
 }
 
 .hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 40px;
 }
 
-.hero-text {
-  max-width: 550px;
-}
-
-.subtitle {
-  font-size: 20px;
-  color: #4a6fa5;
-}
-
-.description {
-  margin-top: 20px;
-  line-height: 1.6;
-}
-
-/* FOTO PRO */
 .hero-photo img {
   width: 100%;
-  max-width: 480px;
-  height: 540px;
+  max-width: 420px;
+  height: 520px;
   object-fit: cover;
-  object-position: center top;
-  border-radius: 22px;
-  box-shadow: 0 12px 30px rgba(23, 54, 93, 0.16);
+  border-radius: 20px;
 }
 
-/* BOTONES */
-.btn {
-  padding: 12px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-.btn-primary {
-  background: #2f6fed;
-  color: white;
-}
-
-.btn-secondary {
-  background: #e6ecf5;
-  color: #2c3e50;
-}
-
-/* SECCIONES */
 .container {
   padding: 40px;
 }
 
 .section {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -91,22 +53,24 @@ body {
   border-radius: 12px;
 }
 
-/* PROYECTOS */
+.highlight {
+  border-left: 4px solid blue;
+}
+
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .project-card {
   background: white;
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
 }
 
 .project-image {
-  height: 200px;
-  overflow: hidden;
+  height: 220px;
 }
 
 .project-image img {
@@ -115,14 +79,27 @@ body {
   object-fit: cover;
 }
 
-/* RESPONSIVE */
+.project-body {
+  padding: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: blue;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .hero-content {
-    flex-direction: column;
-    text-align: center;
+    grid-template-columns: 1fr;
   }
 
-  .hero-photo img {
-    height: auto;
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 }
