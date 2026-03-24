@@ -205,8 +205,10 @@ section h2 {
 
 /* PROJECTS */
 .projects-grid {
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 1px; background: var(--rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  background: transparent;
 }
 .project-card { background: var(--surface); overflow: hidden; transition: box-shadow 0.2s; }
 .project-card:hover { box-shadow: 0 4px 24px rgba(15,31,51,0.10); }
